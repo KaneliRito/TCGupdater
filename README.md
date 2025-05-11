@@ -4,7 +4,7 @@ A Playwright-powered scraper and Tkinter GUI to automate pricing updates on [TCG
 Supports undercutting by average or lowest competitor price (with configurable thresholds), or bumping price by +€ if no competitors are found.
 
 
-Use at your own risk. The author is not responsible or liable for any incorrect pricing updates, financial losses, or other consequences resulting from using this tool. Always double-check suggested prices before confirming.
+⚠️Use at your own risk. The author is not responsible or liable for any incorrect pricing updates, financial losses, or other consequences resulting from using this tool. Always double-check suggested prices before confirming.⚠️
 ---
 
 ## 📦 Features
@@ -16,7 +16,7 @@ Use at your own risk. The author is not responsible or liable for any incorrect 
     - **Lowest** competitor price minus €0.01 (if base > €0.02)  
   - If no competitors: raise current price by +€X.  
   - Configurable UI-build delay to avoid timing issues.  
-  - Detailed logging
+  - Detailed 📝logging
 
 - **Modern GUI**  
   - Tabbed interface with **Controls** and **Log** views.  
@@ -28,4 +28,7 @@ Use at your own risk. The author is not responsible or liable for any incorrect 
 ---
 - Windows  
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
